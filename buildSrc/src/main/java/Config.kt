@@ -185,6 +185,8 @@ object Config {
         val group = "io.sentry"
         val description = "SDK for sentry.io"
         val versionNameProp = "versionName"
+        val sentryGradlePlugin = "io.sentry.android.gradle"
+        val sentryGradleVersion = "3.1.3"
     }
 
     object CompileOnly {
